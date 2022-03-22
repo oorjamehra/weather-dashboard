@@ -53,7 +53,7 @@ function getData() {
         var lon = response.coord.lon;
         // Calls UV index
         $.ajax({
-            url: "https://api.openweathermap.org/data/2.5/uvi?appid=642f9e3429c58101eb516d1634bdaa4b&lat=" + lat + "&lon=" + lon,
+            url: "https://api.openweathermap.org/data/2.5/uvi?appid=c26cbe6a679e58f6c5b8bce2459323e4b&lat=" + lat + "&lon=" + lon,
             method: "GET"
         // Displays UV in main card
         }).then(function (response) {
